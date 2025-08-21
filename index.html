@@ -1,18 +1,158 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Profile</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rajat Vishwakarma - Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    header p {
+      margin: 5px 0;
+      font-size: 0.9rem;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 0.9rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      width: 90%;
+      max-width: 900px;
+      margin: 20px auto;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      border-bottom: 2px solid #222;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li {
+      margin-bottom: 10px;
+    }
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      font-size: 0.8rem;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Rajat Vishwakarma</h1>
-        <img src="rajat.jpg" alt="Rajat Vishwakarma">
+  <header>
+    <h1>Rajat Vishwakarma</h1>
+    <p>Mumbai, Maharashtra | B.Tech Mechanical Engg (IIT Indore, 2026)</p>
+    <p><a href="mailto:rajatvishwa283@gmail.com" style="color:#fff;">rajatvishwa283@gmail.com</a> | 
+       <a href="https://rajatvishwa.me" target="_blank" style="color:#fff;">Portfolio</a> | 
+       <a href="https://www.linkedin.com/in/rajat-vishwa/" target="_blank" style="color:#fff;">LinkedIn</a></p>
+    <nav>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#positions">Positions</a>
+      <a href="#achievements">Achievements</a>
+    </nav>
+  </header>
 
-        <h2>About Me</h2>
-        <p>My name is Rajat Vishwakarma. I am a student at the Indian Institute Of Technology, Indore. I am currently a sophomore and will be graduating in 2026.</p>
-        <h3>Contact Me</h3>
-        <p>Email: <a href="mailto:rajatvishwa283@gmail.com">rajatvishwa283@gmail.com</a></p>
-    </div>
+  <div class="container">
+    <section id="education">
+      <h2>Education</h2>
+      <p><strong>IIT Indore</strong> – B.Tech Mechanical Engineering (Minor: Astronomy), CGPA: 8.15 (2022–Present)</p>
+      <p>Senior Secondary (HSC): 80.67% (2022)</p>
+      <p>Secondary (SSC): 93.80% (2020)</p>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <ul>
+        <li><strong>BNY Mellon</strong> – SDE Intern (May–Jul 2025)<br>
+          Migrated backend infra from NoSQL→SQL, built dual DB layer, extended trade-data APIs, cut costs $105k/year, won 2nd in hackathon.</li>
+        <li><strong>Tecnod8.ai</strong> – Software Developer Intern (Jun 2024–May 2025)<br>
+          Developed AI agents, digital twin simulation engine, deployed apps with Docker on AWS/GCP, optimized memory 30%, integrated generative AI (reduced manual effort 70%).</li>
+        <li><strong>Mechatronics Lab, IIT Indore</strong> – Research Intern (Jan–Jun 2024)<br>
+          Built IoT service with ESP32 + Node.js WebSockets, React dashboard, SQLite persistence, contributed to patent-pending hardware.</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <p><strong>CODE-G</strong> – Volvo Eicher Commercial Vehicles (Feb–Mar 2024)<br>
+      Built modular simulation for Titan-EV repair workflows, modeled 7+ mechanics/failure cases, training modules, inventory + diagnostics system.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <p><strong>Languages:</strong> Python, Java, C++, C#</p>
+      <p><strong>Frameworks:</strong> Spring Boot, Flask, FastAPI, Node.js, Unity</p>
+      <p><strong>Databases:</strong> MySQL, MongoDB, Oracle Exadata, Redis</p>
+      <p><strong>Cloud/DevOps:</strong> AWS, GCP, Docker, CI/CD</p>
+      <p><strong>Other:</strong> DSA, System Design, Git, Linux, OpenCV, Selenium, Arduino</p>
+    </section>
+
+    <section id="positions">
+      <h2>Positions of Responsibility</h2>
+      <ul>
+        <li>Game Dev Lead – GDSC, IIT Indore (Sep 2023–Nov 2024)</li>
+        <li>Domain Lead – Game Dev Domain IITISoC’24 (May–Aug 2024)</li>
+        <li>Team Lead – InterIIT Techmeet 12, 13 (Sep 2023–Dec 2024)</li>
+      </ul>
+    </section>
+
+    <section id="achievements">
+      <h2>Achievements</h2>
+      <ul>
+        <li>Gold Medal – Game Dev Division, IITISoC’23</li>
+        <li>Competitive Programming – Codeforces 1373 (max)</li>
+        <li>AIR 7266 – JEE Advanced 2022</li>
+      </ul>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2025 Rajat Vishwakarma | Built with HTML, CSS, JS</p>
+  </footer>
+
+  <script>
+    // smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener("click", function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute("href")).scrollIntoView({
+          behavior: "smooth"
+        });
+      });
+    });
+  </script>
 </body>
 </html>
